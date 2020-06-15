@@ -51,6 +51,10 @@ Integration tests have been implemented.
 
 ![Alt text](https://github.com/alexibro/PricesCodeChallenge/blob/master/resources/test-results.PNG)
 
+### Unit tests
+
+Unit tests have been implemented to ensure the correct behavior of the service layer, which contains the business logic.
+
 ### Postman
 
 A **Postman collection has been provided** (resource folder) to execute requests.
