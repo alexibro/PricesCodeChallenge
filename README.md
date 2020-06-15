@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/alexibro/CodeChallenge.svg?branch=master)](https://travis-ci.com/alexibro/PricesCodeChallenge)
+
 # Code Challenge: Prices
 
 ## How to run
