@@ -1,0 +1,372 @@
+{
+	"info": {
+		"_postman_id": "a9751e47-68fb-4b6a-83c8-8d1c653a1c84",
+		"name": "Prices Code Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Price 1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b9740477-7e97-473a-b04d-7c6fa6ba55da",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { \r",
+							"    pm.response.to.have.status(200); \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/price/35455?brandId=1&date=2020-06-14-10.00.00",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"price",
+						"35455"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						},
+						{
+							"key": "date",
+							"value": "2020-06-14-10.00.00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Price 2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ee6cde70-4905-4c88-b610-ebc3f24bb2f4",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { \r",
+							"    pm.response.to.have.status(200); \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/price/35455?brandId=1&date=2020-06-14-16.00.00",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"price",
+						"35455"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						},
+						{
+							"key": "date",
+							"value": "2020-06-14-16.00.00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Price 3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "6a3880ab-27f8-46e0-8acc-08a71b5cebe3",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { \r",
+							"    pm.response.to.have.status(200); \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/price/35455?brandId=1&date=2020-06-14-21.00.00",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"price",
+						"35455"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						},
+						{
+							"key": "date",
+							"value": "2020-06-14-21.00.00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Price 4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "cb725739-a96d-43e9-8c41-108e0c54bd74",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { \r",
+							"    pm.response.to.have.status(200); \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/price/35455?brandId=1&date=2020-06-15-10.00.00",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"price",
+						"35455"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						},
+						{
+							"key": "date",
+							"value": "2020-06-15-10.00.00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Price 5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2c9dd0f7-95da-4fc9-b0d1-eb703333b47c",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { \r",
+							"    pm.response.to.have.status(200); \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/price/35455?brandId=1&date=2020-06-16-21.00.00",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"price",
+						"35455"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						},
+						{
+							"key": "date",
+							"value": "2020-06-16-21.00.00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Price (Price Not Found)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f81b8346-c648-4e91-a1f8-d68cb0a8e2dd",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { \r",
+							"    pm.response.to.have.status(404); \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/price/-1?brandId=1&date=2020-06-16-21.00.00",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"price",
+						"-1"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						},
+						{
+							"key": "date",
+							"value": "2020-06-16-21.00.00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Price (Price Not Found)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ef5dad9e-0380-44f5-82c6-9603a7f8ad04",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { \r",
+							"    pm.response.to.have.status(404); \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/price/35455?brandId=-1&date=2020-06-16-21.00.00",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"price",
+						"35455"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "-1"
+						},
+						{
+							"key": "date",
+							"value": "2020-06-16-21.00.00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Price (Bad Request)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "48b1ed84-7d40-4ea2-90f7-4e05dd010831",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { \r",
+							"    pm.response.to.have.status(400); \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/price/35455?brandId=1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"price",
+						"35455"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "0151de43-a77a-46be-b8d4-f0a1a03c1642",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "89d7e4e8-d5d9-464a-ae4b-14ce019f091e",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "12aa9e2a-e8bb-4c21-b0f2-915e46a663a5",
+			"key": "BASE_URL",
+			"value": "http://localhost:8080",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
