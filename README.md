@@ -62,6 +62,18 @@ A **Postman collection has been provided** (resource folder) to execute requests
 Travis file has been included, which passes the tests and builds the image.
 (and uploads them to the Docker Hub uncommenting the .travis.yml lines). 
 
+## Architecture
+
+The requirements have been kept simple but structure has been implemented thinking about future application growth.
+
+Two implementations of the getPrices method have been provided at the service layer:
+
+* Recovering all the prices of the database and applying a filtering in the service, transferring all the business logic to this layer, leaving the repository as a "simple" connector to the database
+
+* Using the names of the methods provided by Spring Data to query the database and directly obtain the expected result
+
+The implementation has been carried out keeping the focus on SOLID principles throughout the development.
+
 ## Deployment:
 
 ### Multi-stage Dockerfile
