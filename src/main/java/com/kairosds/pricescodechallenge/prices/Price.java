@@ -14,6 +14,7 @@ import java.time.LocalDateTime;
 @Data
 @Builder
 @AllArgsConstructor
+@NoArgsConstructor
 @ApiModel(description = "Product price")
 public class Price {
 
@@ -65,9 +66,6 @@ public class Price {
             example = "EUR")
     private String curr;
 
-    // It is mandatory to declare this constructor
-    public Price() {}
-
     public Price(long brandId, LocalDateTime startDate, LocalDateTime endDate, long priceList, long productId, int priority, double price, String curr) {
         this.brandId = brandId;
         this.startDate = startDate;
@@ -78,5 +76,4 @@ public class Price {
         this.price = price;
         this.curr = curr;
     }
-
 }
