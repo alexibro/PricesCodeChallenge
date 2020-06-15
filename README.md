@@ -47,13 +47,13 @@ Console is enabled. You can access with following credentials:
 
 Integration tests have been implemented.
 
-![Alt text](https://github.com/alexibro/CodeChallengeTransactions/blob/master/resources/test-results.PNG)
+![Alt text](https://github.com/alexibro/PricesCodeChallenge/blob/master/resources/test-results.PNG)
 
 ### Postman
 
 A **Postman collection has been provided** (resource folder) to execute requests.
 
-![Alt text](https://github.com/alexibro/CodeChallengeTransactions/blob/master/resources/postman-tests.PNG)
+![Alt text](https://github.com/alexibro/PricesCodeChallenge/blob/master/resources/postman-tests.PNG)
 
 ### CI
 
