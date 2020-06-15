@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  transactions:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: alexibro/pricescodechallenge
+    ports:
+      - "8080:8080"
